@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>404 Not Found</title>
+    <style>
+        body {
+            background-color: #ffffff;
+            color: #000000;
+            font-family: sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        h1 {
+            font-size: 28px;
+            font-weight: normal;
+            margin-bottom: 15px;
+        }
+        hr {
+            border: 0;
+            border-top: 1px solid #cccccc;
+            max-width: 100%;
+            margin: 0 auto 15px auto;
+        }
+        p {
+            font-size: 14px;
+            font-style: italic;
+            color: #000000;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>404 Not Found</h1>
+    <hr>
+    <p>nginx/1.18.0 (Ubuntu)</p>
+
+</body>
+</html>
