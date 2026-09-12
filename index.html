@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+html<!DOCTYPE html>
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
@@ -27,6 +27,14 @@
             font-style: italic;
             color: #000000;
         }
+        
+        /* 💡 핵심: 글자 색을 하얀색으로 만들어 평소엔 안 보이게 숨김 */
+        .secret-message {
+            margin-top: 100px;
+            font-size: 18px;
+            color: #ffffff; 
+            font-weight: bold;
+        }
     </style>
 </head>
 <body>
@@ -34,6 +42,11 @@
     <h1>404 Not Found</h1>
     <hr>
     <p>nginx/1.18.0 (Ubuntu)</p>
+
+    <!-- ⚠️ 이곳의 문구를 원하는 비밀 메시지로 자유롭게 수정하세요! -->
+    <div class="secret-message">
+        hi uwu
+    </div>
 
 </body>
 </html>
